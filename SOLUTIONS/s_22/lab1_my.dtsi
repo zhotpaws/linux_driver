@@ -1,0 +1,16 @@
+/*
+ * Sample DTSI file.
+ * (c)  Jan-Simon Möller (jsmoeller@linuxfoundation.org)
+ *
+ */
+/ {
+
+	fakedummy {
+		compatible = "fake,dummy";
+
+		myproperty  = "this is my property";
+		myotherprop = <2>;
+		default-state = "off";
+	};
+
+};
